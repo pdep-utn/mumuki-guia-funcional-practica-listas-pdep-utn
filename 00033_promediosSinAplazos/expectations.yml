@@ -1,0 +1,23 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: promediosSinAplazos
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: average
+  inspection: Not:HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: promediosSinAplazos
+  inspection: HasUsage:average
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: promediosSinAplazos
+  inspection: HasUsage:map
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: promediosSinAplazos
+  inspection: HasUsage:filter
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: promediosSinAplazos
+  inspection: HasComposition
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: promediosSinAplazos
+  inspection: Not:HasDirectRecursion

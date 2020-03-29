@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: mejoresNotas
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: mejoresNotas
+  inspection: HasUsage:maximum
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: mejoresNotas
+  inspection: Not:HasDirectRecursion

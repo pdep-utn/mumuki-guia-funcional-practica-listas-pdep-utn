@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuantosCumplen
+  inspection: HasTypeSignature
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuantosCumplen
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuantosCumplen
+  inspection: HasComposition
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuantosCumplen
+  inspection: Not:HasDirectRecursion

@@ -1,0 +1,17 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: alguno
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: alguno
+  inspection: Not:HasUsage:any
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: alguno
+  inspection: Not:HasDirectRecursion
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: alguno
+  inspection: Not:HasConditional
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: alguno
+  inspection: HasTypeSignature

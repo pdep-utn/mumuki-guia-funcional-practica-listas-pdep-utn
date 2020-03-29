@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: hayAlgunNegativo
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: hayAlgunNegativo
+  inspection: HasUsage:any
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: hayAlgunNegativo
+  inspection: Not:HasConditional
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: hayAlgunNegativo
+  inspection: Not:HasDirectRecursion

@@ -1,0 +1,17 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sumaPorFunciones
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sumaPorFunciones
+  inspection: HasUsage:aplicarFunciones
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: aplicarFunciones
+  inspection: Not:HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sumaPorFunciones
+  inspection: HasComposition
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sumaPorFunciones
+  inspection: Not:HasDirectRecursion

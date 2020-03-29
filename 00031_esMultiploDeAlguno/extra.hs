@@ -1,0 +1,1 @@
+esMultiploDe unNumero otroNumero = rem unNumero otroNumero == 0

@@ -1,0 +1,35 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuandoHabloMas
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuandoHizoMasLlamadas
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuandoHizoLaLlamadaMasLarga
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuandoHizoMasLlamadasBreves
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuandoHizoMasLlamadasBreves
+  inspection: HasUsage:length
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuandoHabloMas
+  inspection: HasUsage:sum
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuandoHizoMasLlamadas
+  inspection: HasUsage:length
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuandoHabloMas
+  inspection: Not:HasDirectRecursion
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuandoHizoMasLlamadas
+  inspection: Not:HasDirectRecursion
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuandoHizoLaLlamadaMasLarga
+  inspection: Not:HasDirectRecursion
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuandoHizoMasLlamadasBreves
+  inspection: Not:HasDirectRecursion
