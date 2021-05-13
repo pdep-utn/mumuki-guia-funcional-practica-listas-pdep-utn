@@ -1,1 +1,2 @@
-aprobo  = all (>=4)
+aprobo :: [Int] -> Bool
+aprobo = all (>=4)
